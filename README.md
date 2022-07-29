@@ -7,7 +7,7 @@ There are some changes in syntax between QuPath version 0.2.x and 0.1.x. Referri
 [[SRA]](https://github.com/christianabbet/SRA) project from Christian Abbet 
 
 
-## Compress Tiff image with Image.save
+## Compress Tiff image with Image.save Cre:cgohlke
 ```python
 from PIL import Image, TiffTags
 TiffTags.LIBTIFF_CORE.add(317)
