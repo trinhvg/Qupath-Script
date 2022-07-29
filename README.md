@@ -8,7 +8,9 @@ There are some changes in syntax between QuPath version 0.2.x and 0.1.x. Referri
 
 
 ## Compress Tiff image with Image.save
+```python
 from PIL import Image, TiffTags
 TiffTags.LIBTIFF_CORE.add(317)
 img = Image.open('issue2866.tif')
 img.save('issue2866_out.tif', compression='tiff_lzw', tiffinfo={317: 2})
+```
